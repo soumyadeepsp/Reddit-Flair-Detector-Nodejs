@@ -1,0 +1,51 @@
+body
+{
+	margin: 0px; padding: 0px;
+}
+
+#body-header
+{
+	height: 50vh; width: 100%; background-color: black;
+}
+
+#first-line p
+{
+	color: white; text-align: center; font-size: 4rem; letter-spacing: 0.2rem; margin-top: 0px;
+	margin-bottom: 0px; position: relative; top: 25vh;
+}
+
+#second-line p
+{
+	color: white; text-align: center; font-size: 1.7rem; letter-spacing: 0.1rem; margin-bottom: 0px;
+	margin-top: 0px; position: relative; top: 25vh;
+}
+
+main img
+{
+	height: 10rem; width: 10rem; text-align:
+}
+
+#photo
+{
+	text-align: center; margin-top: -10vh;
+}
+
+.sign
+{
+    background-color: lightgrey; height: 5vh; position: fixed; bottom: 0px; width: 100%;
+}
+
+#sign
+{
+	text-align: right; vertical-align: middle; padding-right: 5vh; line-height: 0.8vh;
+}
+
+#graph-photo
+{
+	margin-bottom: 5vh;
+}
+
+#image
+{
+	margin-top: -1vh;
+}

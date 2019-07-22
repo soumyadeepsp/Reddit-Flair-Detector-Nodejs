@@ -1,0 +1,88 @@
+body
+{
+	margin: 0px; padding: 0px;
+}
+
+#body-header
+{
+	height: 50vh; width: 100%; background-color: black;
+}
+
+#first-line p
+{
+	color: white; text-align: center; font-size: 4rem; letter-spacing: 0.2rem; margin-top: 0px;
+	margin-bottom: 0px; position: relative; top: 17vh;
+}
+
+#second-line p
+{
+	color: white; text-align: center; font-size: 1.7rem; letter-spacing: 0.1rem; margin-bottom: 0px;
+	margin-top: 0px; position: relative; top: 17vh;
+}
+
+main img
+{
+	height: 10rem; width: 10rem; text-align:
+}
+
+#photo
+{
+	text-align: center; margin-top: -10vh;
+}
+
+#url-submit
+{
+	display: block; text-align: center; margin-top: 4vh; margin-bottom: 2vh;
+}
+
+#url
+{
+	width: 80%; height: 5vh;
+}
+
+#submit
+{
+	text-align: center;
+}
+
+button[type="submit"] {
+    background-color: #1a1a1a;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    letter-spacing: 0.1rem;
+    line-height: 1;
+    padding: 12px 18px;
+    text-transform: uppercase;
+}
+
+button[type="submit"]:hover {
+    background-color: #dc6520;
+}
+
+.sign
+{
+    background-color: lightgrey; height: 5vh; position: fixed; bottom: 0px; width: 100%;
+}
+
+#sign
+{
+	text-align: right; vertical-align: middle; padding-right: 5vh; line-height: 0.8vh;
+}
+
+#result
+{
+	text-align: center; margin-top: 5vh; margin-bottom: 5vh;
+}
+
+#statistics
+{
+	color: white; display: inline-block; letter-spacing: 0.2rem; font-size: 1.4rem;
+	padding: 0rem 0.2rem 0rem 0.2rem;
+}
+
+#statistics:hover
+{
+	color: black; background-color: white; border-radius: 20%;
+}
