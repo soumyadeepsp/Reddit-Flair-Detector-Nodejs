@@ -29,6 +29,8 @@ accuracy from Logistic Regression = 0.5346587647883683
 
 #statistics.py = this python code is used for the calculations of the statistics.html page which tells te percentage of num_comments and upvote_ratio of differet types of flaired posts.
 
+#heroku app link - https://reddit-flair-detector-sp.herokuapp.com/
+
 ### References
 
 1. [How to scrape data from Reddit](http://www.storybench.org/how-to-scrape-reddit-with-python/)
