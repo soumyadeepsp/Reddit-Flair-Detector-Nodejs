@@ -43,6 +43,26 @@ for i in top_subreddit:
 	arru.append(i.upvote_ratio)
 	arrf.append(i.link_flair_text)
 
+AskIndia_comments = 0
+AskIndia_upvotes = 0
+BuisnessFinance_comments = 0
+BuisnessFinance_upvotes = 0
+Food_comments = 0
+Food_upvotes = 0
+Non_Political_comments = 0
+Non_Political_upvotes = 0
+Photography_comments = 0
+Photography_upvotes = 0
+Policy_Economy_upvotes = 0
+Policy_Economy_comments = 0
+Politics_comments = 0
+Politics_upvotes = 0
+Science_Technology_comments = 0
+Science_Technology_upvotes = 0
+Sports_comments = 0
+Sports_upvotes = 0
+Reddiquette_upvotes = 0
+Reddiquette_comments = 0
 for i in range(0, 400):
 	if (arrf[i]=="AskIndia"):
 		AskIndia_comments += arrc[i]
@@ -54,8 +74,8 @@ for i in range(0, 400):
 		Food_comments += arrc[i]
 		Food_upvotes += arru[i]
 	if (arrf[i]=="Non-Political"):
-		Non-Political_comments += arrc[i]
-		Non-Political_upvotes += arru[i]
+		Non_Political_comments += arrc[i]
+		Non_Political_upvotes += arru[i]
 	if (arrf[i]=="Photography"):
 		Photography_comments += arrc[i]
 		Photography_upvotes += arru[i]
@@ -72,12 +92,12 @@ for i in range(0, 400):
 		Sports_comments += arrc[i]
 		Sports_upvotes += arru[i]
 	if (arrf[i]=="[R]eddiquette"):
-		[R]eddiquette_comments += arrc[i]
-		[R]eddiquette_upvotes += arru[i]
+		Reddiquette_comments += arrc[i]
+		Reddiquette_upvotes += arru[i]
 
 	print (AskIndia_comments/400, BuisnessFinance_comments/400, Food_comments/400, Non-Political_comments/400, Photography_comments/400,
-		Policy_Economy_comments/400, Politics_comments/400, Science_Technology_comments/400, Sports_comments/400, [R]eddiquette_comments/400)
+		Policy_Economy_comments/400, Politics_comments/400, Science_Technology_comments/400, Sports_comments/400, Reddiquette_comments/400)
 	print (AskIndia_upvotes/400, BuisnessFinance_upvotes/400, Food_upvotes/400, Non-Political_upvotes/400, Photography_upvotes/400,
-		Policy_Economy_upvotes/400, Politics_upvotes/400, Science_Technology_upvotes/400, Sports_upvotes/400, [R]eddiquette_upvotes/400)
+		Policy_Economy_upvotes/400, Politics_upvotes/400, Science_Technology_upvotes/400, Sports_upvotes/400, Reddiquette_upvotes/400)
 #print (arrc)
 #print (arru)
