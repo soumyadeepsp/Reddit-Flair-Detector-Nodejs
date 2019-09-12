@@ -24,11 +24,11 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction.text import TfidfTransformer
 
-reddit = praw.Reddit(client_id='6Cm46yZ7j1NZSQ', \
-                     client_secret='feB_wRJDyRjL62W4HGSsQTU32Lk', \
-                     user_agent='precog', \
-                     username='sp_paul', \
-                     password='paulsoumitsi')
+reddit = praw.Reddit(client_id='#', \
+                     client_secret='#', \
+                     user_agent='#', \
+                     username='#', \
+                     password='#')
 subreddit = reddit.subreddit('india')
 top_subreddit = subreddit.top(limit=400)
 arr = []
