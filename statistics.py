@@ -22,11 +22,11 @@ from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction.text import TfidfTransformer
 
 #link = input()
-reddit = praw.Reddit(client_id='6Cm46yZ7j1NZSQ', \
-                     client_secret='feB_wRJDyRjL62W4HGSsQTU32Lk', \
-                     user_agent='precog', \
-                     username='sp_paul', \
-                     password='paulsoumitsi')
+reddit = praw.Reddit(client_id='#', \
+                     client_secret='#', \
+                     user_agent='#', \
+                     username='#', \
+                     password='#')
 #submission = reddit.submission(url=link)
 #print (submission.link_flair_text)
 #title = submission.title
